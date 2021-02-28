@@ -1,10 +1,21 @@
 body{
+    background: scroll;
     font-family: 'Noto Sans JP', sans-serif;
+}
+
+#calendar-container
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 10px 20px 10px;
 }
 
 #calendar-wrap
 {
     width: 100%;
+    margin-bottom: 25px !important;
+    padding-bottom: 20px !important;
 }
 
 #calendar-wrap a
@@ -24,7 +35,7 @@ body{
 #calendar-wrap li{
     display: block;
     float: left;
-    width: 14.2857142857%;  /*100/7=14.2857142857*/
+    width: 14.2857142857%;  /* 100/7=14.2857142857 */
     padding: 5px;
     box-sizing: border-box;
     border: 1px solid #ccc;
@@ -35,6 +46,8 @@ body{
 #calendar-wrap ul.weekdays
 {
     height: 40px;
+    width: auto;
+    margin-right: 0.45%;
     background: chocolate;
 }
 
