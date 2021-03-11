@@ -6,2555 +6,2603 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet"/>
     <link rel="shortcut icon" type="image/png" href="images/cal_favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </head>
 <body>
-    <!--January-->
     <div id="calendar-container">
-        <header>
+            <header>
+                <h3>Calendar for the entire year 2021.</h3>
+            </header>
+
+        <div class="parallax" data-parallax="scroll" data-image-src="images/image.jpg" data-z-index="1">
             <h1>January 2021</h1>
-        </header>
-        <div id="calendar-wrap">
-            <ul class="weekdays">
-                <li>Sunday</li>
-                <li>Monday</li>
-                <li>Tuesday</li>
-                <li>Wednesday</li>
-                <li>Thursday</li>
-                <li>Friday</li>
-                <li>Saturday</li>
-            </ul>
-            <ul class="days">
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day">
-                    <div class="date">
-                        01
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            New Year's Day
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        02
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        03
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        04
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        05
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        06
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        07
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        08
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        09
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        10
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        11
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        12
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        13
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Lohri
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        14
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Makar sankranti
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        15
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        16
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        17
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        18
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            VESP CT2-Day 1
-                        </div>
-                        <div class="event-time">
-                            10:00am to 11:00am and 02:00pm to 03:00pm
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        19
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            VESP CT2-Day 2
-                        </div>
-                        <div class="event-time">
-                            10:00am to 11:00am and 02:00pm to 03:00pm
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        20
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Guru Gobind Singh Jayanti
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        21
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        22
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        23
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        24
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        25
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        26
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Republic Day-India
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        27
-                    </div>
-                    
-                </li>
-                <li class="day">
-                    <div class="date">
-                        28
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        29
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        30
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        31
-                    </div>
-                </li>
-            </ul>
         </div>
-    </div>
+        <!--January-->
+        <div id="calendar-container">
+            <header>
+                <!-- <h1>January 2021</h1> -->
+            </header>
+            <div id="calendar-wrap">
+                <ul class="weekdays">
+                    <li>Sunday</li>
+                    <li>Monday</li>
+                    <li>Tuesday</li>
+                    <li>Wednesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                </ul>
+                <ul class="days">
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            01
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                New Year's Day
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            02
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            03
+                        </div>
+                    </li>
+                </ul>
 
-    <!--February-->
-    <div id="calendar-container">
-        <header>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            04
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            05
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            06
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            07
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            08
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            09
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            10
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            11
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            12
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            13
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Lohri
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            14
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Makar sankranti
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            15
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            16
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            17
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            18
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                VESP CT2-Day 1
+                            </div>
+                            <div class="event-time">
+                                10:00am to 11:00am and 02:00pm to 03:00pm
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            19
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                VESP CT2-Day 2
+                            </div>
+                            <div class="event-time">
+                                10:00am to 11:00am and 02:00pm to 03:00pm
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            20
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Guru Gobind Singh Jayanti
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            21
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            22
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            23
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            24
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            25
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            26
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Republic Day-India
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            27
+                        </div>
+                        
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            28
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            29
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            30
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            31
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="parallax" data-parallax="scroll" data-image-src="images/image.jpg" data-z-index="1">
             <h1>February 2021</h1>
-        </header>
-        <div id="calendar-wrap">
-            <ul class="weekdays">
-                <li>Sunday</li>
-                <li>Monday</li>
-                <li>Tuesday</li>
-                <li>Wednesday</li>
-                <li>Thursday</li>
-                <li>Friday</li>
-                <li>Saturday</li>
-            </ul>
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        01
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        02
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        03
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        04
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        05
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        06
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        07
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        08
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        09
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        10
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        11
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        12
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        13
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        14
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        15
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        16
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Vasant panchami
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        17
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        18
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        19
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Shivaji jayanti
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        20
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        21
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        22
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        23
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        24
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        25
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        26
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        27
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        28
-                    </div>
-                </li>
-            </ul>
         </div>
-    </div>
+        <!--February-->
+        <div id="calendar-container">
+            <header>
+                <!-- <h1>February 2021</h1> -->
+            </header>
+            <div id="calendar-wrap">
+                <ul class="weekdays">
+                    <li>Sunday</li>
+                    <li>Monday</li>
+                    <li>Tuesday</li>
+                    <li>Wednesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                </ul>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            01
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            02
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            03
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            04
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            05
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            06
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            07
+                        </div>
+                    </li>
+                </ul>
 
-    <!--March-->
-     <div id="calendar-container">
-        <header>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            08
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            09
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            10
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            11
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            12
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            13
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            14
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            15
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            16
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Vasant panchami
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            17
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            18
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            19
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Shivaji jayanti
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            20
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            21
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            22
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            23
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            24
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            25
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            26
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            27
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            28
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="parallax" data-parallax="scroll" data-image-src="images/image.jpg" data-z-index="1">
             <h1>March 2021</h1>
-        </header>
-        <div id="calendar-wrap">
-            <ul class="weekdays">
-                <li>Sunday</li>
-                <li>Monday</li>
-                <li>Tuesday</li>
-                <li>Wednesday</li>
-                <li>Thursday</li>
-                <li>Friday</li>
-                <li>Saturday</li>
-            </ul>
-            <ul class="days">
-                <li class="day other-month">
-                </li>
-                <li class="day">
-                    <div class="date">
-                        01
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        02
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        03
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        04
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        05
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        06
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        07
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        08
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        09
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        10
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        11
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Mahashivratri
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        12
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        13
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        14
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        15
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        16
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        17
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        18
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        19
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        20
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        21
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        22
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        23
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        24
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        25
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        26
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        27
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        28
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Holika dahan
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        29
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Holi
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        30
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        31
-                    </div>
-                </li>
-            </ul>
         </div>
-    </div>
+        <!--March-->
+        <div id="calendar-container">
+            <header>
+                <!-- <h1>March 2021</h1> -->
+            </header>
+            <div id="calendar-wrap">
+                <ul class="weekdays">
+                    <li>Sunday</li>
+                    <li>Monday</li>
+                    <li>Tuesday</li>
+                    <li>Wednesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                </ul>
+                <ul class="days">
+                    <li class="day other-month">
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            01
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            02
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            03
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            04
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            05
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            06
+                        </div>
+                    </li>
+                </ul>
 
-    <!--April-->
-     <div id="calendar-container">
-        <header>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            07
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            08
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            09
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            10
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            11
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Mahashivratri
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            12
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            13
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            14
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            15
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            16
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            17
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            18
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            19
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            20
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            21
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            22
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            23
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            24
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            25
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            26
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            27
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            28
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Holika dahan
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            29
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Holi
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            30
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            31
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="parallax" data-parallax="scroll" data-image-src="images/image.jpg" data-z-index="1">
             <h1>April 2021</h1>
-        </header>
-        <div id="calendar-wrap">
-            <ul class="weekdays">
-                <li>Sunday</li>
-                <li>Monday</li>
-                <li>Tuesday</li>
-                <li>Wednesday</li>
-                <li>Thursday</li>
-                <li>Friday</li>
-                <li>Saturday</li>
-            </ul>
-            <ul class="days">
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day">
-                    <div class="date">
-                        01
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        02
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Good Friday
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        03
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        04
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        05
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        06
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        07
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        08
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        09
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        10
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        11
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        12
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        13
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        14
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        15
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        16
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        17
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        18
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        19
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        20
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        21
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Rama navami
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        22
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        23
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        24
-                    </div>
-                </li>
-            </ul>
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        25
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Mahavir jayanti
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        26
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        27
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        28
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        29
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        30
-                    </div>
-                </li>
-            </ul>
         </div>
-    </div>
+        <!--April-->
+        <div id="calendar-container">
+            <header>
+                <!-- <h1>April 2021</h1> -->
+            </header>
+            <div id="calendar-wrap">
+                <ul class="weekdays">
+                    <li>Sunday</li>
+                    <li>Monday</li>
+                    <li>Tuesday</li>
+                    <li>Wednesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                </ul>
+                <ul class="days">
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            01
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            02
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Good Friday
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            03
+                        </div>
+                    </li>
+                </ul>
 
-    <!--May-->
-     <div id="calendar-container">
-        <header>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            04
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            05
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            06
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            07
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            08
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            09
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            10
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            11
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            12
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            13
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            14
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            15
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            16
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            17
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            18
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            19
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            20
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            21
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Rama navami
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            22
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            23
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            24
+                        </div>
+                    </li>
+                </ul>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            25
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Mahavir jayanti
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            26
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            27
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            28
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            29
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            30
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="parallax" data-parallax="scroll" data-image-src="images/image.jpg" data-z-index="1">
             <h1>May 2021</h1>
-        </header>
-        <div id="calendar-wrap">
-            <ul class="weekdays">
-                <li>Sunday</li>
-                <li>Monday</li>
-                <li>Tuesday</li>
-                <li>Wednesday</li>
-                <li>Thursday</li>
-                <li>Friday</li>
-                <li>Saturday</li>
-            </ul>
-            <ul class="days">
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day">
-                    <div class="date">
-                        01
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        02
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        03
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        04
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        05
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        06
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        07
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        08
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        09
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        10
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        11
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        12
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        13
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        14
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Ramzan Eid
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        15
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        16
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        17
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        18
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        19
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        20
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        21
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        22
-                    </div>
-                </li>
-            </ul>
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        23
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        24
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        25
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        26
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Buddha purnima
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        27
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        28
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        29
-                    </div>
-                </li>
-            </ul>
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        30
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        31
-                    </div>
-                </li>
-            </ul>
         </div>
-    </div>
+        <!--May-->
+        <div id="calendar-container">
+            <header>
+                <!-- <h1>May 2021</h1> -->
+            </header>
+            <div id="calendar-wrap">
+                <ul class="weekdays">
+                    <li>Sunday</li>
+                    <li>Monday</li>
+                    <li>Tuesday</li>
+                    <li>Wednesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                </ul>
+                <ul class="days">
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            01
+                        </div>
+                    </li>
+                </ul>
 
-    <!--June-->
-    <div id="calendar-container">
-        <header>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            02
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            03
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            04
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            05
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            06
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            07
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            08
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            09
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            10
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            11
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            12
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            13
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            14
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Ramzan Eid
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            15
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            16
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            17
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            18
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            19
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            20
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            21
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            22
+                        </div>
+                    </li>
+                </ul>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            23
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            24
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            25
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            26
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Buddha purnima
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            27
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            28
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            29
+                        </div>
+                    </li>
+                </ul>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            30
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            31
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="parallax" data-parallax="scroll" data-image-src="images/image.jpg" data-z-index="1">
             <h1>June 2021</h1>
-        </header>
-        <div id="calendar-wrap">
-            <ul class="weekdays">
-                <li>Sunday</li>
-                <li>Monday</li>
-                <li>Tuesday</li>
-                <li>Wednesday</li>
-                <li>Thursday</li>
-                <li>Friday</li>
-                <li>Saturday</li>
-            </ul>
-            <ul class="days">
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day">
-                    <div class="date">
-                        01
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        02
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        03
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        04
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        05
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        06
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        07
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        08
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        09
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        10
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        11
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        12
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">  
-                <li class="day">
-                    <div class="date">
-                        13
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        14
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        15
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        16
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        17
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        18
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        19
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        20
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        21
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        22
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        23
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        24
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        25
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        26
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        27
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        28
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        29
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        30
-                    </div>
-                </li>
-            </ul>
         </div>
-    </div>
+        <!--June-->
+        <div id="calendar-container">
+            <header>
+                <!-- <h1>June 2021</h1> -->
+            </header>
+            <div id="calendar-wrap">
+                <ul class="weekdays">
+                    <li>Sunday</li>
+                    <li>Monday</li>
+                    <li>Tuesday</li>
+                    <li>Wednesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                </ul>
+                <ul class="days">
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            01
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            02
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            03
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            04
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            05
+                        </div>
+                    </li>
+                </ul>
 
-    <!--July-->
-    <div id="calendar-container">
-        <header>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            06
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            07
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            08
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            09
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            10
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            11
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            12
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">  
+                    <li class="day">
+                        <div class="date">
+                            13
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            14
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            15
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            16
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            17
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            18
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            19
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            20
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            21
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            22
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            23
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            24
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            25
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            26
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            27
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            28
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            29
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            30
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="parallax" data-parallax="scroll" data-image-src="images/image.jpg" data-z-index="1">
             <h1>July 2021</h1>
-        </header>
-        <div id="calendar-wrap">
-            <ul class="weekdays">
-                <li>Sunday</li>
-                <li>Monday</li>
-                <li>Tuesday</li>
-                <li>Wednesday</li>
-                <li>Thursday</li>
-                <li>Friday</li>
-                <li>Saturday</li>
-            </ul>
-            <ul class="days">
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day">
-                    <div class="date">
-                        01
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        02
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        03
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        04
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        05
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        06
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        07
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        08
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        09
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        10
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        11
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        12
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Rath yatra
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        13
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        14
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        15
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        16
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        17
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        18
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        19
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        20
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        21
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Bakri Eid
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        22
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        23
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        24
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        25
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        26
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        27
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        28
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        29
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        30
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        31
-                    </div>
-                </li>
-            </ul>
         </div>
-    </div>
+        <!--July-->
+        <div id="calendar-container">
+            <header>
+                <!-- <h1>July 2021</h1> -->
+            </header>
+            <div id="calendar-wrap">
+                <ul class="weekdays">
+                    <li>Sunday</li>
+                    <li>Monday</li>
+                    <li>Tuesday</li>
+                    <li>Wednesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                </ul>
+                <ul class="days">
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            01
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            02
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            03
+                        </div>
+                    </li>
+                </ul>
 
-    <!--August-->
-    <div id="calendar-container">
-        <header>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            04
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            05
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            06
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            07
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            08
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            09
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            10
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            11
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            12
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Rath yatra
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            13
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            14
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            15
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            16
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            17
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            18
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            19
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            20
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            21
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Bakri Eid
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            22
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            23
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            24
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            25
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            26
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            27
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            28
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            29
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            30
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            31
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="parallax" data-parallax="scroll" data-image-src="images/image.jpg" data-z-index="1">
             <h1>August 2021</h1>
-        </header>
-        <div id="calendar-wrap">
-            <ul class="weekdays">
-                <li>Sunday</li>
-                <li>Monday</li>
-                <li>Tuesday</li>
-                <li>Wednesday</li>
-                <li>Thursday</li>
-                <li>Friday</li>
-                <li>Saturday</li>
-            </ul>
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        01
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        02
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        03
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        04
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        05
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        06
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        07
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        08
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        09
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        10
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        11
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        12
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        13
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        14
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        15
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Independence day
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        16
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Parsi new year
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        17
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        18
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        19
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Muharram
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        20
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        21
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        22
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Rakshabandhan
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        23
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        24
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        25
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        26
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        27
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        28
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        29
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        30
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Janmashtami
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        31
-                    </div>
-                </li>
-            </ul>
         </div>
-    </div>
+        <!--August-->
+        <div id="calendar-container">
+            <header>
+                <!-- <h1>August 2021</h1> -->
+            </header>
+            <div id="calendar-wrap">
+                <ul class="weekdays">
+                    <li>Sunday</li>
+                    <li>Monday</li>
+                    <li>Tuesday</li>
+                    <li>Wednesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                </ul>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            01
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            02
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            03
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            04
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            05
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            06
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            07
+                        </div>
+                    </li>
+                </ul>
 
-    <!--September-->
-    <div id="calendar-container">
-        <header>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            08
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            09
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            10
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            11
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            12
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            13
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            14
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            15
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Independence day
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            16
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Parsi new year
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            17
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            18
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            19
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Muharram
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            20
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            21
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            22
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Rakshabandhan
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            23
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            24
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            25
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            26
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            27
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            28
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            29
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            30
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Janmashtami
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            31
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="parallax" data-parallax="scroll" data-image-src="images/image.jpg" data-z-index="1">
             <h1>September 2021</h1>
-        </header>
-        <div id="calendar-wrap">
-            <ul class="weekdays">
-                <li>Sunday</li>
-                <li>Monday</li>
-                <li>Tuesday</li>
-                <li>Wednesday</li>
-                <li>Thursday</li>
-                <li>Friday</li>
-                <li>Saturday</li>
-            </ul>
-            <ul class="days">
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day">
-                    <div class="date">
-                        01
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        02
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        03
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        04
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        05
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        06
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        07
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        08
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        09
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        10
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Ganesh chaturthi
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        11
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        12
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        13
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        14
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        15
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        16
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        17
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        18
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        19
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        20
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        21
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        22
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        23
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        24
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        25
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        26
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        27
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        28
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        29
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        30
-                    </div>
-                </li>
-            </ul>
         </div>
-    </div>
+        <!--September-->
+        <div id="calendar-container">
+            <header>
+                <!-- <h1>September 2021</h1> -->
+            </header>
+            <div id="calendar-wrap">
+                <ul class="weekdays">
+                    <li>Sunday</li>
+                    <li>Monday</li>
+                    <li>Tuesday</li>
+                    <li>Wednesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                </ul>
+                <ul class="days">
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            01
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            02
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            03
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            04
+                        </div>
+                    </li>
+                </ul>
 
-    <!--October-->
-    <div id="calendar-container">
-        <header>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            05
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            06
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            07
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            08
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            09
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            10
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Ganesh chaturthi
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            11
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            12
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            13
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            14
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            15
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            16
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            17
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            18
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            19
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            20
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            21
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            22
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            23
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            24
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            25
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            26
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            27
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            28
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            29
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            30
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="parallax" data-parallax="scroll" data-image-src="images/image.jpg" data-z-index="1">
             <h1>October 2021</h1>
-        </header>
-        <div id="calendar-wrap">
-            <ul class="weekdays">
-                <li>Sunday</li>
-                <li>Monday</li>
-                <li>Tuesday</li>
-                <li>Wednesday</li>
-                <li>Thursday</li>
-                <li>Friday</li>
-                <li>Saturday</li>
-            </ul>
-            <ul class="days">
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day">
-                    <div class="date">
-                        01
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        02
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Gandhi jayantii
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>                    
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        03
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        04
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        05
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        06
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        07
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        08
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        09
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        10
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        11
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        12
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        13
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        14
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        15
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Dussehra
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        16
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        17
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        18
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        19
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        20
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        21
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        22
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        23
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        24
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        25
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        26
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        27
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        28
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        29
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        30
-                    </div>
-                </li>
-            </ul>
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        31
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Halloween
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-            </ul>
         </div>
-    </div>
+        <!--October-->
+        <div id="calendar-container">
+            <header>
+                <!-- <h1>October 2021</h1> -->
+            </header>
+            <div id="calendar-wrap">
+                <ul class="weekdays">
+                    <li>Sunday</li>
+                    <li>Monday</li>
+                    <li>Tuesday</li>
+                    <li>Wednesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                </ul>
+                <ul class="days">
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            01
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            02
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Gandhi jayantii
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>                    
+                </ul>
 
-    <!--November-->
-    <div id="calendar-container">
-        <header>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            03
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            04
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            05
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            06
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            07
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            08
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            09
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            10
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            11
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            12
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            13
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            14
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            15
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Dussehra
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            16
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            17
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            18
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            19
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            20
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            21
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            22
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            23
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            24
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            25
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            26
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            27
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            28
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            29
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            30
+                        </div>
+                    </li>
+                </ul>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            31
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Halloween
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="parallax" data-parallax="scroll" data-image-src="images/image.jpg" data-z-index="1">
             <h1>November 2021</h1>
-        </header>
-        <div id="calendar-wrap">
-            <ul class="weekdays">
-                <li>Sunday</li>
-                <li>Monday</li>
-                <li>Tuesday</li>
-                <li>Wednesday</li>
-                <li>Thursday</li>
-                <li>Friday</li>
-                <li>Saturday</li>
-            </ul>
-            <ul class="days">
-                <li class="day other-month">
-                </li>
-                <li class="day">
-                    <div class="date">
-                        01
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        02
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        03
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        04
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Diwali
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        05
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Gowardhan puja
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        06
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Bhai duj
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        07
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        08
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        09
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        10
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Chhat puja
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        11
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        12
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        13
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        14
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        15
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        16
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        17
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        18
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        19
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Gurunanak jayanti
-                        </div>
-                        <div class="event-time">
-                            All day
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        20
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        21
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        22
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        23
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        24
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        25
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        26
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        27
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        28
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        29
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        30
-                    </div>
-                </li>
-            </ul>
         </div>
-    </div>
+        <!--November-->
+        <div id="calendar-container">
+            <header>
+                <!-- <h1>November 2021</h1> -->
+            </header>
+            <div id="calendar-wrap">
+                <ul class="weekdays">
+                    <li>Sunday</li>
+                    <li>Monday</li>
+                    <li>Tuesday</li>
+                    <li>Wednesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                </ul>
+                <ul class="days">
+                    <li class="day other-month">
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            01
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            02
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            03
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            04
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Diwali
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            05
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Gowardhan puja
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            06
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Bhai duj
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                </ul>
 
-    <!--December-->
-    <div id="calendar-container">
-        <header>
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            07
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            08
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            09
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            10
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Chhat puja
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            11
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            12
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            13
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            14
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            15
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            16
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            17
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            18
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            19
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Gurunanak jayanti
+                            </div>
+                            <div class="event-time">
+                                All day
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            20
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            21
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            22
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            23
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            24
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            25
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            26
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            27
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            28
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            29
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            30
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="parallax" data-parallax="scroll" data-image-src="images/image.jpg" data-z-index="1">
             <h1>December 2021</h1>
-        </header>
-        <div id="calendar-wrap">
-            <ul class="weekdays">
-                <li>Sunday</li>
-                <li>Monday</li>
-                <li>Tuesday</li>
-                <li>Wednesday</li>
-                <li>Thursday</li>
-                <li>Friday</li>
-                <li>Saturday</li>
-            </ul>
-            <ul class="days">
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day other-month">
-                </li>
-                <li class="day">
-                    <div class="date">
-                        01
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        02
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        03
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        04
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        05
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        06
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        07
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        08
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        09
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        10
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        11
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        12
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        13
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        14
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        15
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        16
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        17
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        18
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        19
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        20
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        21
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        22
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        23
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        24
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Christmas eve
-                            <div class="event-time">
-                                All day
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        25
-                    </div>
-                    <div class="event">
-                        <div class="event-desc">
-                            Christmas
-                            <div class="event-time">
-                                All day
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="days">
-                <li class="day">
-                    <div class="date">
-                        26
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        27
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        28
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        29
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        30
-                    </div>
-                </li>
-                <li class="day">
-                    <div class="date">
-                        31
-                    </div>
-                </li>
-            </ul>
         </div>
+        <!--December-->
+        <div id="calendar-container">
+            <header>
+                <!-- <h1>December 2021</h1> -->
+            </header>
+            <div id="calendar-wrap">
+                <ul class="weekdays">
+                    <li>Sunday</li>
+                    <li>Monday</li>
+                    <li>Tuesday</li>
+                    <li>Wednesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                </ul>
+                <ul class="days">
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day other-month">
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            01
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            02
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            03
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            04
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            05
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            06
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            07
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            08
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            09
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            10
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            11
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            12
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            13
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            14
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            15
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            16
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            17
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            18
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            19
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            20
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            21
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            22
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            23
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            24
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Christmas eve
+                                <div class="event-time">
+                                    All day
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            25
+                        </div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Christmas
+                                <div class="event-time">
+                                    All day
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="days">
+                    <li class="day">
+                        <div class="date">
+                            26
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            27
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            28
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            29
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            30
+                        </div>
+                    </li>
+                    <li class="day">
+                        <div class="date">
+                            31
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <p>Copyright &copy; 2021 - Calendar 2021</p>
+        </footer>
     </div>
 </body>
 </html>

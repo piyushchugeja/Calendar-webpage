@@ -3,12 +3,21 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+header
+{
+    background: #f2bb9b;
+    color: #000;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
 #calendar-container
 {
     width: 100%;
     height: auto;
     overflow: hidden;
-    margin: 0 10px 20px 10px;
+    margin: auto;
 }
 
 #calendar-wrap
@@ -122,6 +131,32 @@ body{
     margin-bottom: 7px;
 }
 
+.parallax {
+	min-height: 700px;
+    width: 100%;
+	background: transparent;
+}
+
+.parallax h1
+{
+    font-size: 50px;
+    padding-top: 325px;
+    left: 40%;
+    position: relative;
+    color: #fff;
+    z-index: 2;
+    text-transform: uppercase;
+}
+
+footer
+{
+    background: #f2bb9b;
+    color: #000;        
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
 @media(max-width: 768px)
 {
     #calendar-wrap .weekdays, #calendar-wrap .other-month
@@ -139,5 +174,20 @@ body{
 
     #calendar-wrap .date{
         float: none;
+    }
+
+    .parallax{
+        min-height: 400px;
+        width: 100%;
+        background: transparent;
+    }
+
+    .parallax h1
+    {
+        font-size: 30px;
+        padding-top: 185px;
+        left: 32%;
+        color: #fff;
+        z-index: 2;
     }
 }
