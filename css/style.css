@@ -180,6 +180,7 @@ footer
         min-height: 400px;
         width: 100%;
         background: transparent;
+	background-attachment: sticky;
         text-align: center;
     }
 
