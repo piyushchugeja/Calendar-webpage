@@ -1,0 +1,198 @@
+body{
+    background: scroll;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header
+{
+    background: #f2bb9b;
+    color: #000;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+#calendar-container
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+
+#calendar-wrap
+{
+    width: 100%;
+    margin-bottom: 25px !important;
+    padding-bottom: 20px !important;
+}
+
+#calendar-wrap a
+{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+#calendar-wrap ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    clear: both;
+    width: 100%;
+}
+
+#calendar-wrap li{
+    display: block;
+    float: left;
+    width: 14.2857142857%;  /* 100/7=14.2857142857 */
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-right: -1px;
+    margin-bottom: -1px;
+}
+
+#calendar-wrap ul.weekdays
+{
+    height: 40px;
+    width: auto;
+    margin-right: 0.45%;
+    background: chocolate;
+}
+
+#calendar-wrap ul.weekdays li{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 20px;
+    border: none !important;
+    padding: 10px 6px;
+    color: fff;
+    font-size: small;
+}
+
+#calendar-wrap .days li{
+    height: 150px;
+}
+
+#calendar-wrap .days li:hover{
+    background: cornsilk;
+}
+
+#calendar-wrap .date{
+    text-align:center;
+    margin-bottom: 5px;
+    padding: 5px;
+    background:cornsilk;
+    color: currentColor;
+    width: 25px;
+    border-radius: 50%;
+    float: right;
+}
+
+#calendar-wrap .other-month .date{
+    border: none !important;
+    background: #fff !important;
+}
+
+#calendar-wrap .other-month:hover
+{
+    background: cornsilk;
+    color: cornsilk;
+}
+
+#calendar-wrap .other-month .date:hover{
+    background: cornsilk !important;
+    border: none !important;
+}
+
+#calendar-wrap .event{
+    clear: both;
+    display: block;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    line-height: 14px;
+    color: black;
+    border: 1px solid #b5dbdc;
+    background: rgb(197, 196, 196);
+    text-decoration: none;
+}
+
+#calendar-wrap .event-desc{
+    color: rgb(0, 0, 0);
+    margin: 7px 0 5px 0;
+    text-decoration: none;
+}
+
+#calendar-wrap .event-time{
+    color: firebrick;
+    margin-bottom: 7px;
+}
+
+.parallax {
+	min-height: 700px;
+    width: 100%;
+	background: transparent;
+    text-align: center;
+}
+
+.parallax h1
+{
+    font-size: 50px;
+    padding-top: 25%;
+    position: relative;
+    color: #fff;
+    z-index: 2;
+    text-transform: uppercase;
+}
+
+footer
+{
+    background: #f2bb9b;
+    color: #000;        
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+@media(max-width: 768px)
+{
+    #calendar-wrap .weekdays, #calendar-wrap .other-month
+    {
+        display: none;
+    }
+
+    #calendar-wrap li{
+        height: auto !important;
+        border: 1px solid #ededed;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: -1px;
+    }
+
+    #calendar-wrap .date{
+        float: none;
+    }
+
+    .parallax{
+        min-height: 400px;
+        width: 100%;
+        background: transparent;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+
+    .parallax h1
+    {
+        font-size: 30px;
+        position: relative;
+        padding-top: 40%;
+        color: #fff;
+        z-index: 2;
+    }
+}
