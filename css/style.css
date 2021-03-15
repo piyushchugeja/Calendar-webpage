@@ -135,13 +135,13 @@ header
 	min-height: 700px;
     width: 100%;
 	background: transparent;
+    text-align: center;
 }
 
 .parallax h1
 {
     font-size: 50px;
-    padding-top: 325px;
-    left: 40%;
+    padding-top: 25%;
     position: relative;
     color: #fff;
     z-index: 2;
@@ -180,13 +180,14 @@ footer
         min-height: 400px;
         width: 100%;
         background: transparent;
+        text-align: center;
     }
 
     .parallax h1
     {
         font-size: 30px;
-        padding-top: 185px;
-        left: 32%;
+        position: relative;
+        padding-top: 40%;
         color: #fff;
         z-index: 2;
     }
